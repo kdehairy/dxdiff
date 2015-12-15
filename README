@@ -1,0 +1,8 @@
+#Overview
+This is a utility to generate a diff between two dalvik dex files. It relies on bsdiff tool to generate the diff. It tries to optimize the output of the diff depending on internal knowledge of the dex file format.
+
+**This tool is still under developement. It does not deliver yet!
+
+#Dependencies
+- libbsdiff (another tool that wraps the bsdiff algorithm)
+- libwdex (same as libdex from AOSP android, but with writable structs)
